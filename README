@@ -1,0 +1,67 @@
+openyahtzee
+------------------------------------------
+Open Yhatzee is an open-source (free) version of the classic dice game 
+Yahtzee. Open Yahtzee is built to be OS portable via wxWidgets, which 
+also gives Open Yahtzee a native look on each platform.
+
+Runtime requirements:
+  cygwin-1.5.23-2
+  libsqlite3_0-3.3.7-1
+  wx26-2.6.3-1
+  wx26-gtk2-2.6.3-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.23-2
+  autoconf2.5-2.60-2
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.2.8-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  libtool1.5-1.5.23a-2
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://openyahtzee.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/openyahtzee/
+
+-------------------------------------------
+
+Build instructions:
+  unpack openyahtzee-1.6-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./openyahtzee-1.6-X.cygport all
+
+This will create:
+  /usr/src/openyahtzee-1.6-X-src.tar.bz2
+  /usr/src/openyahtzee-1.6-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/openyahtzee.exe
+  /usr/share/doc/Cygwin/openyahtzee-1.6.README
+  /usr/share/doc/openyahtzee-1.6/AUTHORS
+  /usr/share/doc/openyahtzee-1.6/COPYING
+  /usr/share/doc/openyahtzee-1.6/ChangeLog
+  /usr/share/doc/openyahtzee-1.6/INSTALL
+  /usr/share/doc/openyahtzee-1.6/TODO
+
+------------------
+
+Port Notes:
+
+----- version 1.6-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

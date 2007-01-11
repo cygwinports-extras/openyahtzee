@@ -1,0 +1,7 @@
+category: Games
+requires: cygwin libsqlite3_0 wx26 wx26-gtk2
+sdesc: "Yahtzee dice game"
+ldesc: "Open Yhatzee is an open-source (free) version of the classic 
+dice game Yahtzee. Open Yahtzee is built to be OS portable via 
+wxWidgets, which also gives Open Yahtzee a native look on each 
+platform."
