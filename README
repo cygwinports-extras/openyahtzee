@@ -5,19 +5,18 @@ Yahtzee. Open Yahtzee is built to be OS portable via wxWidgets, which
 also gives Open Yahtzee a native look on each platform.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  libsqlite3_0-3.3.12-1
-  wx26-2.6.4-1
-  wx26-gtk2-2.6.4-1
+  cygwin-1.5.25-7
+  libsqlite3_0-3.5.6-1
+  wx26-2.8.6-1
+  wx26-gtk2-2.8.6-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.24-2
   autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
+  automake1.10-1.10-1
   binutils-20060817-1
-  cygport-0.3.5-1
-  gawk-3.1.5-4
+  cygport-0.3.8-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
   gcc-g++-3.4.4-3
   libtool1.5-1.5.23a-2
@@ -33,31 +32,35 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack openyahtzee-1.8-X-src.tar.bz2
+  unpack openyahtzee-1.8.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./openyahtzee-1.8-X.cygport all
+  cygport ./openyahtzee-1.8.1-X.cygport all
 
 This will create:
-  /usr/src/openyahtzee-1.8-X-src.tar.bz2
-  /usr/src/openyahtzee-1.8-X.tar.bz2
+  /usr/src/openyahtzee-1.8.1-X-src.tar.bz2
+  /usr/src/openyahtzee-1.8.1-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/openyahtzee.exe
-  /usr/share/doc/Cygwin/openyahtzee-1.8.README
-  /usr/share/doc/openyahtzee-1.8/AUTHORS
-  /usr/share/doc/openyahtzee-1.8/COPYING
-  /usr/share/doc/openyahtzee-1.8/ChangeLog
-  /usr/share/doc/openyahtzee-1.8/INSTALL
-  /usr/share/doc/openyahtzee-1.8/TODO
+  /usr/share/doc/Cygwin/openyahtzee-1.8.1.README
+  /usr/share/doc/openyahtzee-1.8.1/AUTHORS
+  /usr/share/doc/openyahtzee-1.8.1/COPYING
+  /usr/share/doc/openyahtzee-1.8.1/ChangeLog
+  /usr/share/doc/openyahtzee-1.8.1/INSTALL
+  /usr/share/doc/openyahtzee-1.8.1/TODO
+  /usr/share/pixmaps/openyahtzee.png
 
 ------------------
 
 Port Notes:
+
+----- version 1.8.1-1 -----
+Version bump.
 
 ----- version 1.8-1 -----
 Version bump.

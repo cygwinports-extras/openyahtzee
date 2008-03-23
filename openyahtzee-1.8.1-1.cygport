@@ -1,0 +1,6 @@
+WANT_WX=2.8
+inherit wxwidgets
+
+DESCRIPTION="Yahtzee game for wxWidgets"
+HOMEPAGE="http://openyahtzee.sourceforge.net/"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
