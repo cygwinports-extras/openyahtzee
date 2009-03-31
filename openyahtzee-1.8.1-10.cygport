@@ -1,4 +1,4 @@
-WANT_WX=2.8
+WX_VERSION=2.8
 inherit wxwidgets
 
 DESCRIPTION="Yahtzee game for wxWidgets"
