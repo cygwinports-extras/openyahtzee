@@ -3,4 +3,6 @@ inherit wxwidgets
 
 DESCRIPTION="Yahtzee game for wxWidgets"
 HOMEPAGE="http://openyahtzee.sourceforge.net/"
-SRC_URI="mirror://sourceforge/${PN}/${P}.tar.gz"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.bz2"
+
+PATCH_URI="1.9-as-needed.patch"

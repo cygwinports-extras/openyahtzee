@@ -1,0 +1,19 @@
+--- origsrc/openyahtzee-1.9/src/Makefile.am	2008-11-23 07:25:47.000000000 -0600
++++ src/openyahtzee-1.9/src/Makefile.am	2009-04-20 10:36:22.436875000 -0500
+@@ -21,9 +21,7 @@ openyahtzee_SOURCES = \
+ 	three.xpm \
+ 	four.xpm \
+ 	five.xpm \
+-	six.xpm \
+-	sqlite/sqlite3.c \
+-	sqlite/sqlite3.h
++	six.xpm
+ 
+ # set the include path found by configure
+ AM_CPPFLAGS = $(all_includes)
+@@ -42,4 +40,4 @@ noinst_HEADERS = \
+ 	openyahtzee.rc
+ 
+ AM_CXXFLAGS = @WX_CXXFLAGS@
+-openyahtzee_LDFLAGS = @WX_LIBS@
++openyahtzee_LDADD = @WX_LIBS@ -lsqlite3
