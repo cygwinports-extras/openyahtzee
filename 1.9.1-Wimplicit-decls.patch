@@ -1,0 +1,14 @@
+/usr/include/wx-2.8/wx/string.h: In function 'int Stricmp(const char*, const char*)':
+/usr/include/wx-2.8/wx/string.h:141:31: error: 'strcasecmp' was not declared in this scope
+
+--- origsrc/openyahtzee-1.9.1/configure.ac	2012-02-24 04:32:59.000000000 -0600
++++ src/openyahtzee-1.9.1/configure.ac	2013-11-10 02:34:46.945484200 -0600
+@@ -10,7 +10,7 @@ m4_include(macros/ax_check_compile_flag.
+ # Checks for programs.
+ AC_PROG_CXX
+ 
+-AX_CHECK_COMPILE_FLAG([-std=c++0x], [CXXFLAGS="$CXXFLAGS -std=c++0x"])
++AX_CHECK_COMPILE_FLAG([-std=gnu++0x], [CXXFLAGS="$CXXFLAGS -std=gnu++0x"])
+ 
+ # Checks for typedefs, structures, and compiler characteristics.
+ AC_HEADER_STDBOOL

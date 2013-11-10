@@ -2,7 +2,7 @@ WX_VERSION=2.8
 inherit wxwidgets
 
 NAME="openyahtzee"
-VERSION=1.9
+VERSION=1.9.1
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="Yahtzee dice game"
@@ -11,4 +11,4 @@ game Yahtzee. Open Yahtzee is built to be OS portable via wxWidgets, which also
 gives Open Yahtzee a native look on each platform."
 HOMEPAGE="http://openyahtzee.sourceforge.net/"
 SRC_URI="mirror://sourceforge/openyahtzee/${NAME}-${VERSION}.tar.bz2"
-PATCH_URI="1.9-as-needed.patch"
+PATCH_URI="1.9.1-Wimplicit-decls.patch"
