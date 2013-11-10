@@ -1,7 +1,0 @@
-category: Games
-requires: libgcc1 libstdc++6 libsqlite3_0 libwx_baseu2.8_0 libwx_gtk2u2.8_0
-sdesc: "Yahtzee dice game"
-ldesc: "Open Yhatzee is an open-source (free) version of the classic 
-dice game Yahtzee. Open Yahtzee is built to be OS portable via 
-wxWidgets, which also gives Open Yahtzee a native look on each 
-platform."

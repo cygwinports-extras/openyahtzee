@@ -1,0 +1,14 @@
+WX_VERSION=2.8
+inherit wxwidgets
+
+NAME="openyahtzee"
+VERSION=1.9
+RELEASE=1
+CATEGORY="Games"
+SUMMARY="Yahtzee dice game"
+DESCRIPTION="Open Yhatzee is an open-source (free) version of the classic dice
+game Yahtzee. Open Yahtzee is built to be OS portable via wxWidgets, which also
+gives Open Yahtzee a native look on each platform."
+HOMEPAGE="http://openyahtzee.sourceforge.net/"
+SRC_URI="mirror://sourceforge/openyahtzee/${NAME}-${VERSION}.tar.bz2"
+PATCH_URI="1.9-as-needed.patch"
